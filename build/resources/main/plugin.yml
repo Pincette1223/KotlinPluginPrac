@@ -1,0 +1,5 @@
+name: KotlinPluginPrac
+version: 1.0
+main: kr.kro.pincette.kotlinpluginprac.KotlinPluginPrac
+api-version: 1.17
+author: Pincette
