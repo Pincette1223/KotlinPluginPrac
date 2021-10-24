@@ -24,3 +24,7 @@ class KotlinPluginPrac : JavaPlugin(),Listener {
         event.deathMessage = "${ChatColor.RED}사람이 죽었다."
     }
 }
+
+fun String.removeLang(): String {
+    return this.replace("([a-zA-Z])|([ㄱ-힣])|([0-9])".toRegex(), "＊")
+}
